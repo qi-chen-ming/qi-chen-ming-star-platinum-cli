@@ -1,0 +1,57 @@
+{
+  "name": "create-star-platinum",
+  "version": "2.3.0",
+  "type": "module",
+  "author": "qi-chen-ming",
+  "description": "Using vite's scaffolding tool, you can create vue, react, and other projects.",
+  "bin": {
+    "create-sp": "index.js"
+  },
+  "files": [
+    "index.js",
+    "dist",
+    "template-*",
+    "tep-*"
+  ],
+  "main": "index.js",
+  "scripts": {
+    "dev": "unbuild --stub",
+    "build": "unbuild"
+  },
+  "engines": {
+    "node": "^14.18.0 || >=16.0.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/qi-chen-ming/star-platinum-cli",
+    "directory": "packages/create-star-platinum"
+  },
+  "bugs": {
+    "url": "https://github.com/qi-chen-ming/star-platinum-cli/issues"
+  },
+  "homepage": "https://github.com/qi-chen-ming/star-platinum-cli/tree/main/packages/create-star-platinum#readme",
+  "keywords": [
+    "vite",
+    "vue",
+    "react",
+    "cli"
+  ],
+  "license": "ISC",
+  "devDependencies": {
+    "@types/ejs": "^3.1.2",
+    "@types/eslint": "^8.37.0",
+    "@types/prompts": "^2.4.4",
+    "cross-spawn": "^7.0.3",
+    "ejs": "^3.1.9",
+    "kolorist": "^1.7.0",
+    "minimist": "^1.2.8",
+    "prompts": "^2.4.2",
+    "unbuild": "0.8.11"
+  },
+  "gitHead": "a6bb5c1dfa015599b1167ace194f65df3b082a23",
+  "dependencies": {
+    "download-git-repo": "^3.0.2",
+    "eslint": "^8.39.0",
+    "ora": "^6.3.0"
+  }
+}
